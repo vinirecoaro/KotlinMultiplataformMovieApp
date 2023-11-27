@@ -26,4 +26,4 @@ private val domainModule = module {
 
 private val sharedModules = listOf(domainModule, dataModule, utilityModule)
 
-fun getSharedModuler() = sharedModules
+fun getSharedModules() = sharedModules

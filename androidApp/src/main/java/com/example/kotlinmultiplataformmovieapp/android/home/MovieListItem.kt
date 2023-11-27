@@ -52,14 +52,14 @@ fun MovieListItem(
                 Surface(
                     color = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.6f),
                     modifier = modifier
-                        .size(50.dp)
-                        .clip(CircleShape)
-                        .padding(12.dp)
+                        .size(50.dp),
+                    shape = CircleShape
+
                 ) {
                     Image(
                         painter = painterResource(id = com.example.kotlinmultiplataformmovieapp.android.R.drawable.play_button),
                         contentDescription = null,
-                        modifier = modifier.align(Alignment.Center)
+                        modifier = modifier.padding(12.dp).align(Alignment.Center)
                     )
                 }
             }
